@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dream Catcher</string>
+    <string name="main_toolbar">My Dreams</string>
+    <string name="add_note">Add a dream</string>
+    <string name="speak">Catch...</string>
+    <string name="recognized_not_found">Recognizer not present</string>
+    <string name="hint">Catch your dreams here</string>
+</resources>
