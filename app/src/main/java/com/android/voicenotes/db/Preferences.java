@@ -11,11 +11,6 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
-
-/**
- * Created by maria on 17.10.17.
- */
-
 public class Preferences {
     private static final Preferences instance = new Preferences();
     private static final String APP_SHARED_PREFS = "com.android.voice.notes";
@@ -59,7 +54,7 @@ public class Preferences {
 
     public ArrayList<Note> doneNote(Note note){
         ArrayList<Note> list = getNotes();
-        int index = list.indexOf(note);
+       int index = list.indexOf(note);
         Note cur = list.get(index);
         cur.setDone(true);
         list.set(index, cur);

@@ -10,10 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by maria on 10.10.17.
- */
-
 public abstract class AbstractRecyclerViewAdapter<T> extends RecyclerView.Adapter<AbstractRecyclerViewAdapter.ViewHolder> {
     private List<T> items;
     private Context context;

@@ -6,9 +6,6 @@ import android.content.Context;
 import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 
-/**
- * Created by maria on 17.10.17.
- */
 
 public class ClientApplication extends Application {
 

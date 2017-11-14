@@ -15,10 +15,6 @@ import com.android.voicenotes.utils.CalendarUtils;
 import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter;
 
 
-/**
- * Created by maria on 10.08.17.
- */
-
 public class DreamScheduleAdapter extends AbstractRecyclerViewAdapter<Note> implements StickyRecyclerHeadersAdapter<RecyclerView.ViewHolder> {
 
     public DreamScheduleAdapter(Context context, OnViewHolderClick<Note> listener) {
@@ -73,11 +69,5 @@ public class DreamScheduleAdapter extends AbstractRecyclerViewAdapter<Note> impl
         textView.setText(CalendarUtils.getWeekDateWithYear(getItem(position).getTime()));
     }
 
-
-//    public void clearSelection(){
-//        for(Trip trip: getItems()){
-//            trip.setSelected(false);
-//        }
-//    }
 
 }

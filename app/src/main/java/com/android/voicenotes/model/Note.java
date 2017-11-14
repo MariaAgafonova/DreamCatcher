@@ -1,8 +1,5 @@
 package com.android.voicenotes.model;
 
-/**
- * Created by maria on 17.10.17.
- */
 
 public class Note {
 

@@ -11,9 +11,6 @@ import android.view.View;
 
 import com.android.voicenotes.R;
 
-/**
- * Created by maria on 04.11.17.
- */
 
 public class ActivitySplash extends AppCompatActivity {
     @Override

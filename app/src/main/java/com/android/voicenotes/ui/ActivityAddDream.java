@@ -20,10 +20,6 @@ import com.android.voicenotes.model.Note;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by maria on 17.10.17.
- */
-
 public class ActivityAddDream extends AppCompatActivity {
 
     private ImageButton deleteNote, saveNote, startVoice;
